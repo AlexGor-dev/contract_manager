@@ -1,6 +1,15 @@
 # contract_manager
 Manager contracts for ton blockchain.
 
+//*********************************************************
+
+Файлы fift, func, lite-client - собраны на Ubuntu 18.04.3.
+Необходимо установить Mono - "deb-packages.sh".
+Программа запускается командой - "mono Messenger.exe" из папки bin\.
+Видео по запуску "Contract Manager.mp4".
+
+//*********************************************************
+
 Менеджер контрактов.
 На ПК храниться информация только о менеджере смарт-контрактов.
 Информация о созданных в нём контрактах - хранится в смарт-контракте (Manager) в ton blockchain .
@@ -13,14 +22,19 @@ Manager contracts for ton blockchain.
 - Отправлять запрос на изменение кода.
 - Удалять дочерние контракты.
 
-Файлы fift, func, lite-client - собраны на Ubuntu 18.04.3.
-Необходимо установить Mono - "deb-packages.sh".
-Программа запускается командой - "mono Messenger.exe" из папки bin\.
-Видео по запуску "Contract Manager.mp4".
-
-
+//*********************************************************
 
 Contract manager.
+
+//*********************************************************
+
+Files fift, func, lite-client - compiled on Ubuntu 18.04.3.
+You must install Mono - "deb-packages.sh".
+The program is launched by the command - "mono Messenger.exe" from the bin \ folder.
+Video on launching "Contract Manager.mp4".
+
+//*********************************************************
+
 Only information about the smart contract manager is stored on the PC.
 Information about the contracts created in it is stored in the smart contract (Manager) in the ton blockchain.
 The private key and address of the contract are stored.
@@ -32,7 +46,4 @@ In the manager you can:
 - Send a request to change the code.
 - Delete subsidiary contracts.
 
-Files fift, func, lite-client - compiled on Ubuntu 18.04.3.
-You must install Mono - "deb-packages.sh".
-The program is launched by the command - "mono Messenger.exe" from the bin \ folder.
-Video on launching "Contract Manager.mp4".
+
